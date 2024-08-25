@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poliglosity - Curso Principiante</title>
+    <link rel="preload" href="fonts/goodtime-grotesk.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Roboto Condensed', 'sans-serif'],
+                        title: ['GoodTime Grotesk', 'sans-serif'],
+                        lexend: ['Lexend', 'sans-serif']
+                    },
+                    colors: {
+                        darkGray: '#292929',
+                        lightGray: '#efefef',
+                        orangeCustom: '#FF9416',
+                        blueCustom: '#66A1EF',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @font-face {
+            font-family: 'GoodTime Grotesk';
+            src: url('../fonts/goodtime-grotesk.woff2') format('woff2'),
+                 url('../fonts/goodtime-grotesk.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+    </style>
+    <script src="https://kit.fontawesome.com/111f2ba0df.js" crossorigin="anonymous"></script>
+</head>
+<body class="font-sans text-darkGray m-0 p-0 bg-gray-50">
+    <!-- Header -->
+    <header class="text-center shadow-md font-title">
+        <div class="grid grid-cols-[1fr_1fr]">
+            <h1 class="text-8xl font-bold m-0 py-5 text-right bg-darkGray text-lightGray"><span class="text-orangeCustom">[</span> Polig</h1>
+            <h1 class="text-8xl font-bold m-0 py-5 text-left bg-lightGray text-darkGray">losity <span class="text-blueCustom">]</span></h1>
+        </div>
+        <div class="grid grid-cols-[1fr_1fr]">
+            <h2 class="text-2xl font-bold m-0 pb-5 pr-1 text-right bg-darkGray text-lightGray text-orangeCustom uppercase">aprende inglés</h2>
+            <h2 class="text-2xl font-bold m-0 pb-5 pl-1 text-left bg-lightGray text-darkGray text-blueCustom uppercase">con frases</h2>
+        </div>
+    </header>
+
+    <section class="max-w-6xl mx-auto py-12 px-4">
+        <h2 class="text-4xl font-bold text-center mb-12">Aprende Inglés con Frases<br/>
+            <strong class="text-2xl italic text-blueCustom uppercase">Nivel Intermedio</strong>
+        </h2>
+        <div class="block bg-white shadow-lg rounded-lg overflow-hidden grid grid-cols-1 md:grid-cols-[3fr_2fr]">
+            <div class="p-6 flex flex-col md:col-start-1">
+                <p class="text-gray-700 text-2xl">¿Quieres llevar tu <strong class="text-blueCustom font-bold italic">inglés</strong> al siguiente nivel? ¡El <strong class="font-bold">Curso Intermedio</strong> es para ti! Subimos el nivel con frases más complejas de la <strong class="font-bold">vida real</strong>, que mejorarán tu <strong class="font-bold">comprensión y fluidez</strong>. Avanza con confianza y precisión en tu camino hacia el dominio del <strong class="text-blueCustom font-bold italic">inglés</strong>.</p>
+            </div>
+            <img src="../img/imagen-curso-intermedio.png" alt="Aprende Inglés con Frases Nivel Intermedio" class="object-cover w-full h-full md:col-start-2">
+        </div>
+    </section>
+
+    <!-- Course Section -->
+    <section class="max-w-6xl mx-auto p-4 space-y-2">
+        <h2 class="text-3xl font-bold text-center mb-6 uppercase">Índice</h2>
+        <a href="lesson1.html" class="block p-2 pl-6 bg-white shadow-md rounded-md transition transform hover:scale-105 hover:bg-blue-50">
+            <h3 class="text-2xl font-bold mb-1">Lección 1: <span class="text-blueCustom italic ml-2">Hablando sobre personas</span></h3>
+        </a>
+        <a href="#" class="block p-2 pl-6 bg-white shadow-md rounded-md transition transform hover:scale-105 hover:bg-blue-50">
+            <h3 class="text-2xl font-bold mb-1">Lección 2: <span class="text-blueCustom italic ml-2">Verbos Básicos</span></h3>
+        </a>
+        <a href="#" class="block p-2 pl-6 bg-white shadow-md rounded-md transition transform hover:scale-105 hover:bg-blue-50">
+            <h3 class="text-2xl font-bold mb-1">Lección 3: <span class="text-blueCustom italic ml-2">Frases Simples</span></h3>
+        </a>
+    </section>
+
+    <!-- Course Index Section -->
+    <section class="max-w-6xl mx-auto p-4 space-y-2 m-6">
+        <a href="../index.html">
+            <h2 class="text-3xl font-bold text-center uppercase text-blueCustom hover:underline"><i class="fa-solid fa-rotate-left"></i> Inicio</h2>
+        </a>
+    </section>
+
+    <!-- YouTube Section -->
+    <section class="bg-lightGray py-12 mt-16 drop-shadow-[0_-2px_5px_rgba(0,0,0,0.15)]">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Videos en <a href="https://youtube.com/@poliglosity" target="_blank"><img style="display:inline" src="../img/youtube-logo.png" width="150"/></a></h2>
+            <p class="text-lg">Visita nuestro canal de YouTube para ver los vídeos de las lecciones y mejorar tu <span class="italic text-blueCustom">inglés</span>.<br/>¡<span class="font-bold italic text-orangeCustom">Suscríbete</span> y no te pierdas ninguna actualización!</p>
+            <a href="https://youtube.com/@poliglosity" target="_blank" class="text-lg text-blue-500 mt-4 inline-block">Visita nuestro canal</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-darkGray text-lightGray py-10">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <img src="../img/logo-round.svg" alt="Poliglosity Logo" class="w-12 mx-auto mb-4 inline">
+            <span class="text-3xl font-bold mb-2 font-title ml-2">Poliglosity</span>
+            <p class="text-sm font-title uppercase">Aprende inglés con frases</p>
+            <div class="flex justify-center mt-4">
+                <span class="pt-1 pr-2">Síguenos en redes sociales</span>
+                <a href="https://www.facebook.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-square-facebook"></i></span></a>
+                <a href="https://twitter.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-x-twitter"></i></span></a>
+                <a href="https://www.instagram.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-instagram"></i></span></a>
+            </div>
+            <p class="text-sm mt-4">Contacto: <a class="text-blueCustom" href="mailto:contacto@poliglosity.com">contacto@poliglosity.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
