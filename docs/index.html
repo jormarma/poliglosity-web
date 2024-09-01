@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poliglosity | Aprende Inglés con Frases</title>
-    
     <link rel="preload" href="fonts/goodtime-grotesk.woff2" as="font" type="font/woff2" crossorigin>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -19,8 +19,10 @@
                     colors: {
                         darkGray: '#292929',
                         lightGray: '#efefef',
+                        lightGrayTable: '#f8f8f8',
                         orangeCustom: '#FF9416',
                         blueCustom: '#66A1EF',
+                        redCustom: '#8d3838',
                     }
                 }
             }
@@ -30,7 +32,7 @@
         @font-face {
             font-family: 'GoodTime Grotesk';
             src: url('fonts/goodtime-grotesk.woff2') format('woff2'),
-                 url('fonts/goodtime-grotesk.woff') format('woff');
+                url('fonts/goodtime-grotesk.woff') format('woff');
             font-weight: normal;
             font-style: normal;
             font-display: swap;
@@ -38,35 +40,36 @@
     </style>
     <script src="https://kit.fontawesome.com/111f2ba0df.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-sans text-darkGray m-0 p-0 bg-gray-50">
+
+<body class="font-sans text-[#292929] m-0 p-0">
     <!-- Header -->
     <header class="text-center shadow-lg font-title">
-        <div class="grid grid-cols-[1fr_1fr]">
-            <h1 class="md:text-8xl sm:text-7xl text-[11.5vw] font-bold m-0 sm:py-5 pt-[0.5vw] pb-[2vw] text-right bg-darkGray text-lightGray"><span class="text-orangeCustom">[</span> Polig</h1>
-            <h1 class="md:text-8xl sm:text-7xl text-[11.5vw] font-bold m-0 sm:py-5 pt-[0.5vw] pb-[2vw] text-left bg-lightGray text-darkGray">losity <span class="text-blueCustom">]</span></h1>
-        </div>
-        <div class="grid grid-cols-[1fr_1fr]">
-            <h2 class="hidden sm:block md:text-2xl sm:text-xl text-[3.25vw] font-bold m-0 pb-5 pr-1 text-right bg-darkGray text-lightGray text-orangeCustom uppercase">aprende inglés</h2>
-            <h2 class="hidden sm:block md:text-2xl sm:text-xl text-[3.25vw] font-bold m-0 pb-5 pl-1 text-left bg-lightGray text-blueCustom text-blueCustom uppercase">con frases</h2>
-        </div>
-    </header>
+    <div class="grid grid-cols-[1fr_1fr]">
+        <h1 class="md:text-8xl sm:text-7xl text-[11.5vw] font-bold m-0 sm:py-5 pt-[0.5vw] pb-[2vw] text-right bg-darkGray text-lightGray"><span class="text-orangeCustom">[</span> Polig</h1>
+        <h1 class="md:text-8xl sm:text-7xl text-[11.5vw] font-bold m-0 sm:py-5 pt-[0.5vw] pb-[2vw] text-left bg-lightGray text-darkGray">losity <span class="text-blueCustom">]</span></h1>
+    </div>
+    <div class="grid grid-cols-[1fr_1fr]">
+        <h2 class="hidden sm:block md:text-2xl sm:text-xl text-[3.25vw] font-bold m-0 pb-5 pr-1 text-right bg-darkGray text-lightGray text-orangeCustom uppercase">aprende inglés</h2>
+        <h2 class="hidden sm:block md:text-2xl sm:text-xl text-[3.25vw] font-bold m-0 pb-5 pl-1 text-left bg-lightGray text-blueCustom text-blueCustom uppercase">con frases</h2>
+    </div>
+</header>
 
     <!-- Description Section -->
     <section class="max-w-6xl mx-auto py-12 px-4 text-center">
-        <h2 class="text-3xl font-bold mb-4">Bienvenido a Poliglosity</h2>
-        <p class="lg:text-2xl sm:text-lg text-xl">Aprende <span class="italic text-blueCustom">inglés</span> de una manera divertida y eficaz a través de frases de uso común.<br/>Únete a nosotros y mejora tu <span class="italic text-blueCustom">inglés</span> paso a paso.</p>
+        <h2 class="sm:text-3xl text-2xl font-bold mb-4">Bienvenido a Poliglosity</h2>
+        <p class="lg:text-2xl text-xl">Aprende <span class="italic text-blueCustom">inglés</span> de una manera divertida y eficaz a través de frases de uso común.<br/>Únete a nosotros y mejora tu <span class="italic text-blueCustom">inglés</span> paso a paso.</p>
     </section>
 
     <!-- Courses Section -->
     <section class="xl:max-w-6xl lg:max-w-5xl mx-auto pb-12 px-4">
-        <h2 class="text-3xl font-bold text-center mb-12 sm:mb-8">Aprende <strong class="font-bold italic text-blueCustom">Inglés</strong> con Frases</h2>
+        <h2 class="sm:text-3xl text-2xl font-bold text-center mb-6">Aprende <strong class="font-bold italic text-blueCustom">Inglés</strong> con Frases</h2>
         <div class="space-y-16">
             <!-- Course 1 -->
             <a href="principiante/index.html" class="block bg-white shadow-lg rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-[2fr_3fr] md:grid-cols-[1fr_1fr] hover:scale-105 hover:shadow-[0_35px_40px_-15px_rgba(78,141,62,0.5)] transition duration-300">
                 <img src="img/imagen-curso-principiante.png" alt="Aprende Inglés con Frases Nivel Principiante" class="object-cover w-full h-full md:col-start-1">
                 <div class="p-6 flex flex-col justify-center md:text-left text-center md:col-start-2">
-                    <h3 class="text-2xl font-bold mb-2">Principiante</h3>
-                    <p class="text-gray-700 lg:text-xl md:text-base sm:text-lg text-xl">Aprende <strong class="text-blueCustom font-bold italic">inglés</strong> desde cero con el <strong class="font-bold">Curso para Principiantes</strong>. Aprende las bases del idioma traduciendo frases del <strong class="text-orangeCustom font-bold italic">español</strong> al <strong class="text-blueCustom font-bold italic">inglés</strong>. Con este curso, ganarás <strong class="font-bold">confianza</strong> con el idioma. <br/> ¡Empieza tu camino hacia el <strong class="font-bold">dominio del <strong class="text-blueCustom italic">inglés</strong></strong>!</p>
+                    <h3 class="sm:text-2xl text-xl font-bold mb-2">Principiante</h3>
+                    <p class="lg:text-xl text-base text-darkGray">Aprende <strong class="text-blueCustom font-bold italic">inglés</strong> desde cero con el <strong class="font-bold">Curso para Principiantes</strong>. Aprende las bases del idioma traduciendo frases del <strong class="text-orangeCustom font-bold italic">español</strong> al <strong class="text-blueCustom font-bold italic">inglés</strong>. Con este curso, ganarás <strong class="font-bold">confianza</strong> con el idioma. <br/> ¡Empieza tu camino hacia el <strong class="font-bold">dominio del <strong class="text-blueCustom italic">inglés</strong></strong>!</p>
                 </div>
             </a>
 
@@ -74,8 +77,8 @@
             <a href="intermedio/index.html" class="bg-white shadow-lg rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-[3fr_2fr] md:grid-cols-[1fr_1fr] hover:scale-105 hover:shadow-[0_35px_40px_-15px_rgba(70,110,162,0.5)] transition duration-300">
                 <img src="img/imagen-curso-intermedio.png" alt="Aprende Inglés con Frases Nivel Intermedio" class="md:hidden block object-cover w-full h-full lg:col-start-2">
                 <div class="p-6 flex flex-col justify-center md:text-left text-center md:col-start-1">
-                    <h3 class="text-2xl font-bold mb-2">Intermedio</h3>
-                    <p class="text-gray-700 lg:text-xl md:text-base sm:text-lg text-xl">¿Quieres llevar tu <strong class="text-blueCustom font-bold italic">inglés</strong> al siguiente nivel? ¡El <strong class="font-bold">Curso Intermedio</strong> es para ti! Utiliza frases más complejas de la <strong class="font-bold">vida real</strong>, que mejorarán tu <strong class="font-bold">comprensión y fluidez</strong>. Avanza con confianza en tu camino hacia el dominio del <strong class="text-blueCustom font-bold italic">inglés</strong>.</p>
+                    <h3 class="sm:text-2xl text-xl font-bold mb-2">Intermedio</h3>
+                    <p class="lg:text-xl text-base text-darkGray">¿Quieres llevar tu <strong class="text-blueCustom font-bold italic">inglés</strong> al siguiente nivel? ¡El <strong class="font-bold">Curso Intermedio</strong> es para ti! Utiliza frases más complejas de la <strong class="font-bold">vida real</strong>, que mejorarán tu <strong class="font-bold">comprensión y fluidez</strong>. Avanza con confianza en tu camino hacia el dominio del <strong class="text-blueCustom font-bold italic">inglés</strong>.</p>
                 </div>
                 <img src="img/imagen-curso-intermedio.png" alt="Aprende Inglés con Frases Nivel Intermedio" class="md:block hidden object-cover w-full h-full lg:col-start-2">
             </a>
@@ -84,36 +87,36 @@
             <a href="avanzado/index.html" class="block bg-white shadow-lg rounded-lg overflow-hidden grid grid-cols-1 lg:grid-cols-[2fr_3fr] md:grid-cols-[1fr_1fr] hover:scale-105 hover:shadow-[0_35px_40px_-15px_rgba(78,141,62,0.5)] transition duration-300">
                 <img src="img/imagen-curso-avanzado.png" alt="Aprende Inglés con Frases Nivel Avanzado" class="object-cover w-full h-full md:col-start-1">
                 <div class="p-6 flex flex-col justify-center md:text-left text-center md:col-start-2">
-                    <h3 class="text-2xl font-bold mb-2">Avanzado</h3>
-                    <p class="text-gray-700 lg:text-xl md:text-base sm:text-lg text-xl">¿Quieres tener un <strong class="text-blueCustom font-bold italic">inglés</strong> de nivel profesional? ¡Estás de suerte! Nuestro <strong class="font-bold">Curso Avanzado</strong> es para ti. Diseñado para dominar el <strong class="text-blueCustom font-bold italic">inglés</strong> en cualquier situación. Incluye <strong class="font-bold">frases más complejas</strong> y <strong class="font-bold">avanzadas</strong>. ¡Conviértete en un experto del <strong class="text-blueCustom font-bold italic">inglés</strong>!</p>
+                    <h3 class="sm:text-2xl text-xl font-bold mb-2">Avanzado</h3>
+                    <p class="lg:text-xl text-base text-darkGray">¿Quieres tener un <strong class="text-blueCustom font-bold italic">inglés</strong> de nivel profesional? ¡Estás de suerte! Nuestro <strong class="font-bold">Curso Avanzado</strong> es para ti. Diseñado para dominar el <strong class="text-blueCustom font-bold italic">inglés</strong> en cualquier situación. Incluye <strong class="font-bold">frases más complejas</strong> y <strong class="font-bold">avanzadas</strong>. ¡Conviértete en un experto del <strong class="text-blueCustom font-bold italic">inglés</strong>!</p>
                 </div>
             </a>
         </div>
     </section>
 
     <!-- YouTube Section -->
-    <section class="bg-lightGray py-12 mt-16 drop-shadow-[0_-2px_5px_rgba(0,0,0,0.15)]">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h2 class="text-4xl font-bold mb-4">Videos en <a href="https://youtube.com/@poliglosity" target="_blank"><img style="display:inline" src="img/youtube-logo.png" width="150"/></a></h2>
-            <p class="text-lg">Visita nuestro canal de YouTube para ver los vídeos de las lecciones y mejorar tu <span class="italic text-blueCustom">inglés</span>.<br/>¡<span class="font-bold italic text-orangeCustom">Suscríbete</span> y no te pierdas ninguna actualización!</p>
-            <a href="https://youtube.com/@poliglosity" target="_blank" class="text-lg text-blue-500 mt-4 inline-block">Visita nuestro canal</a>
-        </div>
-    </section>
-
+    <section class="bg-gray-100 py-12 sm:mt-16 mt-8">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+        <h2 class="sm:text-4xl text-3xl font-bold mb-4">Videos en <a href="https://youtube.com/@poliglosity" target="_blank"><img class="inline sm:h-9 h-7 mb-2" src="img/youtube-logo.png" /></a></h2>
+        <p class="text-lg">Visita nuestro canal de YouTube para ver los vídeos de las lecciones y mejorar tu <span class="italic text-blueCustom">inglés</span>.<br/>¡<span class="font-bold italic text-orangeCustom">Suscríbete</span> y no te pierdas ninguna actualización!</p>
+        <a href="https://youtube.com/@poliglosity" target="_blank" class="text-lg text-blue-500 mt-4 inline-block">Visita nuestro canal</a>
+    </div>
+</section>
+    
     <!-- Footer -->
     <footer class="bg-darkGray text-lightGray py-10">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <img src="img/logo-round.svg" alt="Poliglosity Logo" class="w-12 mx-auto mb-4 inline">
-            <span class="text-3xl font-bold mb-2 font-title ml-2">Poliglosity</span>
-            <p class="text-sm font-title uppercase">Aprende inglés con frases</p>
-            <div class="flex justify-center mt-4">
-                <span class="pt-1 pr-2">Síguenos en redes sociales</span>
-                <a href="https://www.facebook.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-square-facebook"></i></span></a>
-                <a href="https://twitter.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-x-twitter"></i></span></a>
-                <a href="https://www.instagram.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-instagram"></i></span></a>
-            </div>
-            <p class="text-sm mt-4">Contacto: <a class="text-blueCustom" href="mailto:contacto@poliglosity.com">contacto@poliglosity.com</a></p>
+    <div class="max-w-6xl mx-auto px-4 text-center">
+        <img src="img/logo-round.svg" alt="Poliglosity Logo" class="w-12 mx-auto mb-4 inline">
+        <span class="text-3xl font-bold mb-2 font-title ml-2">Poliglosity</span>
+        <p class="text-sm font-title uppercase">Aprende inglés con frases</p>
+        <div class="flex justify-center mt-4">
+            <span class="pt-1 pr-2">Síguenos en redes sociales</span>
+            <a href="https://www.facebook.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-square-facebook"></i></span></a>
+            <a href="https://twitter.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-x-twitter"></i></span></a>
+            <a href="https://www.instagram.com/Poliglosity" class="text-lightGray mx-2"><span class="text-2xl"><i class="fa-brands fa-instagram"></i></span></a>
         </div>
-    </footer>
+        <p class="text-sm mt-4">Contacto: <a class="text-blueCustom" href="mailto:contacto@poliglosity.com">contacto@poliglosity.com</a></p>
+    </div>
+</footer>
 </body>
 </html>
