@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://poliglosity.com/sitemap.xml
