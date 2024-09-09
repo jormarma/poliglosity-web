@@ -49,6 +49,12 @@
         <priority>0.7</priority>
     </url>
     <url>
+        <loc>https://poliglosity.com/intermedio/leccion3.html</loc>
+        <lastmod>2024-09-09</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>https://poliglosity.com/avanzado/index.html</loc>
         <lastmod>2024-09-09</lastmod>
         <changefreq>daily</changefreq>
