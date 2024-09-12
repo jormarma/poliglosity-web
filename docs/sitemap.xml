@@ -2,79 +2,91 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://poliglosity.com/index.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/principiante/index.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/principiante/leccion1.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/principiante/leccion2.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/principiante/leccion3.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://poliglosity.com/principiante/leccion4.html</loc>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/intermedio/index.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/intermedio/leccion1.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/intermedio/leccion2.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/intermedio/leccion3.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/avanzado/index.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/avanzado/leccion1.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/avanzado/leccion2.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/avanzado/leccion3.html</loc>
-        <lastmod>2024-09-09</lastmod>
+        <lastmod>2024-09-12</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://poliglosity.com/avanzado/leccion3.html</loc>
+        <lastmod>2024-09-12</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
