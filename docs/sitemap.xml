@@ -2,127 +2,133 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://poliglosity.com/index.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/index.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/1.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/2.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/3.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/4.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/5.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/p/6.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/index.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/1.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/2.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/3.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/4.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/5.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/i/6.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/a/index.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/a/1.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/a/2.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/a/3.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/a/4.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
         <loc>https://poliglosity.com/a/5.html</loc>
-        <lastmod>2024-10-07</lastmod>
+        <lastmod>2024-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://poliglosity.com/a/6.html</loc>
+        <lastmod>2024-10-14</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.7</priority>
     </url>
